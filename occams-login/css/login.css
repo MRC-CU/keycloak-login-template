@@ -108,9 +108,12 @@ div.kc-logo-text span {
     background-image: url(../img/logo.png);
     background-size: 300px;
     background-repeat: no-repeat;
-    background-position: bottom center;
+    background-position: center 48px;
     margin-top: 90px;
     margin-bottom: 0;
+}
+#kc-header::after {
+  content: "Oesophageal cancer clinical and molecular stratification";
 }
 
 #kc-header-wrapper {
